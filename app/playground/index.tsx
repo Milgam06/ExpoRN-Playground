@@ -1,5 +1,5 @@
-import { Redirect } from 'expo-router';
+import { PlaygroundScreen } from '@/playground';
 
 export default function Playground() {
-  return <Redirect href="/playground/datetimepicker" />;
+  return <PlaygroundScreen />;
 }
